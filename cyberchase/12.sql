@@ -1,3 +1,3 @@
 -- Count the number of unique episode titles.
 
-SELECT COUNT(DISTINC title) FROM episodes
+SELECT COUNT(DISTINCT title) FROM episodes;
