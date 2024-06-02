@@ -7,3 +7,6 @@ Involve at least one condition, using WHERE
 Sort by at least one column, using ORDER BY
 
 */
+
+SELECT english_title, brightness as "brisho" from views 
+where brightness > 0.56 ORDER BY brightness DESC LIMIT 10;
