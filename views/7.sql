@@ -5,7 +5,7 @@ Compare them to this list on Wikipedia to see if your results match the print’
 
 */
 
-SELECT brightness FROM views
+SELECT english_title FROM views
 WHERE artist = "Hiroshige"
 ORDER BY brightness DESC
 LIMIT 5;
