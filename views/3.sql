@@ -5,5 +5,5 @@ Though all of Hokusai’s prints focused on Mt. Fuji, in how many did “Fuji”
 
 */
 
-SELECT english_title FROM views
+SELECT COUNT(english_title) FROM views
 WHERE artist = "Hokusai" AND english_title LIKE "%Fuji%";
