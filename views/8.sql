@@ -4,3 +4,8 @@ Write a SQL query to list the English titles of the 5 prints with the least cont
 Compare them to this list on Wikipedia to see if your results match the print’s aesthetics.
 
 */
+
+SELECT english_title FROM views
+WHERE artist = "Hokusai"
+ORDER BY contrast ASC
+LIMIT 5;
