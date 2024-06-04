@@ -7,3 +7,7 @@ Sort by at least one column using ORDER BY
 
 */
 
+SELECT first_name as "Primer Nombre", last_name as "Apellido" FROM players
+WHERE birth_country != "USA"
+ORDER BY first_name;
+
